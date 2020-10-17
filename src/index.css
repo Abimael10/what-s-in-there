@@ -96,7 +96,7 @@ body {
 
 .desc-box {
   width: 40%;
-  background: #fff;
+  background: #eee;
   margin: 1rem auto;
   padding: 1rem;
   color: #000 !important;
@@ -107,4 +107,11 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   color: purple;
+}
+
+.footer {
+  padding: 1rem;
+  background-color: #333;
+  margin-top: 2rem;
+  text-align: center;
 }

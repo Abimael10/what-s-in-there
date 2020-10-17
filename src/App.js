@@ -5,6 +5,7 @@ import Link from './components/LinkImagen';
 import Reconocer from './components/Reconocer';
 import Description from './components/Description';
 import Particles from 'react-particles-js';
+import Footer from './components/Footer';
 
 const app = new Clarifai.App({
   apiKey: '729ec32cd5f04bef922cd3c39b7fb676'
@@ -68,6 +69,7 @@ class App extends Component {
         />
         <Reconocer imagenURL={this.state.imagenURL}/>
         <Description />
+        <Footer/>
       </div>
     );
   }
