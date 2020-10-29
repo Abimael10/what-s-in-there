@@ -17,8 +17,7 @@ class App extends Component {
     super();
     this.state = {
       input: '',
-      imagenURL: '',
-      box: ''
+      imagenURL: ''
     };
   }
 

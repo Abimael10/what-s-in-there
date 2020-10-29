@@ -8,7 +8,7 @@ const Nav = () => {
             </div>
 
             <div className="acceso">
-                <a href="/" className="acceso-link">Log Out</a>
+                <a href="https://studmuffin.tech" className="acceso-link">My Portfolio</a>
             </div>
         </div>
     );
