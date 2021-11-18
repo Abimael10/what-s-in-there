@@ -42,7 +42,6 @@ class App extends Component {
     muestra3.innerHTML = third;
     muestra4.innerHTML = fourth;
     muestra5.innerHTML = fifth;
-
   }
   
   onInputChange = (e) => {

@@ -9,6 +9,7 @@ body {
   color: #fff;
   /*font-family: 'Lobster Two', cursive;*/
   font-family: 'Raleway', sans-serif;
+  min-height: 100%;
 }
 
 .parts {
@@ -18,6 +19,10 @@ body {
   bottom: 0;
   left: 0;
   z-index: -1;
+}
+
+.hidden {
+  display: none;
 }
 
 /*NAV*/
@@ -110,11 +115,31 @@ body {
 }
 
 .footer {
-  position: relative;
-  left: 0;
+  position: fixed;
   bottom: 0;
+  width: 100%;
   padding: 1rem;
   background-color: #333;
   margin-top: 2rem;
   text-align: center;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 768px) {
+  .nav {
+    padding: 1rem;
+  }
+
+  .form-full {
+    text-align: center;
+  }
+
+  .form {
+    padding: 3rem 5rem;
+  }
+
+  .desc-box {
+    width: 85%;
+  }
 }
